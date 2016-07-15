@@ -10,7 +10,7 @@ namespace MvcTesting.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Test mod.";
+            ViewBag.Message = "Other dev change.";
 
             return View();
         }
