@@ -11,6 +11,7 @@ namespace MvcTesting.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Other dev change.";
+            // change from defaul;t
 
             return View();
         }
@@ -27,6 +28,12 @@ namespace MvcTesting.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Spa()
+        {
+
+            return Content("testing");
         }
     }
 }
